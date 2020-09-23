@@ -1,0 +1,183 @@
+/* ukuran tablet */
+@media screen and (max-width: 768px){
+    nav ul{
+        width: 20%;
+    }
+
+    .top-header img {
+        width: 600px;
+    }
+
+    
+}
+
+/* ukuran mobile */
+@media screen and (max-width: 576px){
+    .menu-toggle{
+        display: flex;
+    }
+    nav ul{
+        position: absolute;
+        right: 0;
+        top: 70px;
+        width: 30%;
+        height: 50vh;
+        flex-direction: column;
+        align-items: center;
+        background-color:rgba(57, 224, 57, 0.9);
+        justify-content: space-evenly;
+        transform: translateX(50%);
+        transition: all 0.5s;
+        opacity: 0;
+        border-radius: 5px;
+        
+        
+    }
+    nav ul li a{
+        color: rgb(176, 230, 176);
+    }
+    nav ul li a:hover{
+      color: white;
+      font-weight: bold;
+      
+    }
+
+    nav ul.slide {
+        transform: translateX(0);
+        opacity: 1;
+  
+    }
+
+    .top-flex li{
+        width: 100%;
+        z-index: -2;
+        
+    }
+
+    .top-header img{
+        width: 500px;
+        
+    }
+
+    .top-flex{
+        flex-direction: column;
+
+    }
+
+    .text-2{
+        margin-bottom: 150px;
+    }
+    .text-1 h3{
+        font-size: medium;
+    }
+    .text-1 h1{
+        font-size: 23px;
+    }
+    
+    .text-2{
+        padding: 10px 50px;
+    }
+    .text-2 p{
+        font-size: medium;
+    }
+
+    
+    .lesson-wrapper{
+        height: 1320px;
+    }
+
+    .heading h2{
+        font-size: 22px;
+    }
+
+    .lesson-icon p {
+        top: 15px;
+      }
+
+    .lesson{
+        width: 100%;
+    }
+
+    .txt-contents {
+        width: 60%;
+        right: 25%;
+        
+        font-size: 14px;
+        
+      }
+    /* bottom */
+    .bottom{
+        flex-direction: column;
+    }
+    /* bottom */
+    .bottoms{
+        height: 700px;
+    }
+    /* tombol button */
+    .tombol{
+        top: 570px;
+        left: 35%;
+    }
+
+    .button{
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    /* tombol button */
+
+    /* middle tombol */
+    .sampah-o, .sampah-a, .sampah-b{
+        padding: 10px;
+        margin: 5px 2px;
+    }
+    /* middle tombol */
+    /* macam sampah */
+
+    .reuse, .reduce, .recycle{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    /* macam sampah */
+}
+
+
+/* ukuran mobile rendeah */
+@media screen and (max-width: 480px){
+    nav ul{
+        width: 5%;
+
+    }
+
+    nav ul{
+        right: 0;
+        top: 70px;
+        width: 40%;
+        height: 60vh;
+        
+        
+    }
+
+    .top-header img{
+        width: 400px;
+        
+    }
+
+    .sampah-o, .sampah-a, .sampah-b{
+        padding: 6px;
+        margin: 0;
+    }
+
+    .reuse, .reduce, .recycle{
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+
+    .txt-contents {
+        width: 80%;
+        right: 25%;
+        
+        font-size: 14px;
+        
+      }
+}

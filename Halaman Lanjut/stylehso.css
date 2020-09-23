@@ -1,0 +1,44 @@
+.hso h2{
+    text-align: center;
+    font-size: xx-large;
+    
+}
+.hso p{
+    padding: 20px;
+    margin: 5px;
+   
+    font-size: 20px;
+    background-color: rgb(10, 149, 10);
+    color: white;
+    text-align: center;
+}
+
+p:hover{
+    cursor: pointer;
+    
+}
+
+.kembali a{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* ukuran tablet */
+@media screen and (max-width: 768px){
+    
+    
+}
+
+/* ukuran mobile */
+@media screen and (max-width: 576px){
+    .hso h2{
+        font-size: x-large;
+    }
+    .hso p{
+        padding: 15px;
+        font-size: 15px;
+    }
+}
